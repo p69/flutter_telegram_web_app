@@ -133,6 +133,10 @@ class TelegramWebAppFake extends TelegramWebApp {
   Future<void> disableVerticalSwipes() async {}
   @override
   Future<void> enableVerticalSwipes() async {}
+
+  @override
+  Future<void> toggleVerticalSwipes(bool enable) async {}
+
   @override
   bool get isVerticalSwipesEnabled => true;
 }
